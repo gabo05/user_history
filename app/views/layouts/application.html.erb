@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>UserHistory</title>
+  <%= stylesheet_link_tag "bs3/css/bootstrap.min.css", :media => "all" %>
+  <%= stylesheet_link_tag "bs3/css/bootstrap-theme.min.css", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container">
+		<%= yield %>
+	</div>
+</body>
+</html>
